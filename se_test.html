@@ -5,29 +5,10 @@
 <!--      <script src="scriptPixel.js"></script>
 How I would have called the script directly if I could have figured out how it was desired to pass the URL data to the javascript and back into HTML -->
 
-    </img>
-      <script>
-        var query = location.search.substring(1);
-        // Pull the URL query string.
-        var p1 = query.slice(0,query.search("="));
-        // Set p1 to the first parameter of the query string.
-        var p2 = query.slice(query.search("=")+1);
-        // Set p2 to the first parameter of the query string. -->
-        src="http://i.w55c.net/a.gif?p1=" +p1 "&p2=" +p2)  
-      </script>
+    <img id="Pixel" src =<script>"scriptPixel1.js"</script>/>
       <!-- Fires the script to create the pixel for the first provided URL with the specified parameters -->
-      <!-- I had difficultly figuring out the correct mechanism to pass the resultant string from javascript to HTML. -->    
-  <img>
-    </img>
- <script>
-        var query = location.search.substring(1);
-        // Pull the URL query string.
-        var p1 = query.slice(0,query.search("="));
-        // Set p1 to the first parameter of the query string.
-        var p2 = query.slice(query.search("=")+1);
-        // Set p2 to the first parameter of the query string. -->
-        src="http://i.w55c.net/a.gif?p1=" +p1 "&p2=" +p2)  
-      </script>
+      <!-- I had difficultly figuring out the correct mechanism to pass the parameters into the individual URL, so did idividual scripts for pixels 1 and 2. -->    
+    <img id="Pixel" src =<script>"scriptPixel2.js"</script>/>
   <!-- Fires the script to create the pixel for the second provided URL with the specified parameters -->
   </body>
 </html>
